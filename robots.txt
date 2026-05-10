@@ -1,0 +1,8 @@
+# Allow all crawlers everywhere — we have nothing private.
+# Sitemap pointer lets crawlers discover every URL without manual submission
+# (though manual submit at search.google.com / bing.com/webmasters is still
+# recommended for one-time discovery acceleration).
+User-agent: *
+Allow: /
+
+Sitemap: https://drwwww.github.io/beatmap/sitemap-index.xml
